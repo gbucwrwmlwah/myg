@@ -31,8 +31,7 @@ import subprocess
 
 #@markdown  Visit http://remotedesktop.google.com/headless and copy the command after Authentication
 
-CRP = "" --name=$(hostname)" #@param {type:"string"}
-
+CRP = ""
 #@markdown Enter a Pin (more or equal to 6 digits)
 Pin = 123456 #@param {type: "integer"}
 
